@@ -1,6 +1,6 @@
 package br.ucsal.veiculos;
 
-public class Veiculo {
+public abstract class Veiculo {
 	
 	String cor;
 	int potencia;
@@ -14,5 +14,10 @@ public class Veiculo {
 	public Veiculo(String cor) {
 		this.cor = cor;
 	}
+	
+	
+	public abstract int acelerar();
+	
+	
 
 }
